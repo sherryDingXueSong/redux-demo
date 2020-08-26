@@ -1,0 +1,51 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+}
+.nav-container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  display: flex;
+}
+.nav-item {
+  width: 200px;
+  height: 40px;
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.main-container {
+  margin-top: 50px;
+}
+.main-item {
+  width: 100vw;
+  height: 600px;
+  /* background: yellow; */
+  border-top: 2px solid #eee;
+  margin-top: 10px;
+}
+.demo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.demo:hover {
+  box-shadow: 5px 5px 5px #eee;
+  position: relative;
+  top: -2px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.demo2 {
+  width: 400px;
+  height: 500px;
+  background: url("../../assets/images/timg.jpeg");
+  border: 1px solid black;
+  background-position: -30px -80px;
+}
